@@ -5,7 +5,7 @@ import Button from "./Button";
 import avatar from '../assets/project.png';
 import avatar2 from '../assets/project2.png';
 import avatar3 from '../assets/project3.png';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -63,11 +63,12 @@ export default function Portfolio(){
         AOS.init();
         AOS.refresh();
       }, []);
+    //const [sel ,setSel] = useState();
     return(
         <div className="bg-[#0a132f] py-20 text-gray-300 grid  ">
             <div className=" justify-self-center max-w-5xl">
                 <div> 
-                     <Headsection icon={<CgWebsite size={30} color="tomato" className="mr-3"/>} name="PROJECTs"/>
+                     <Headsection icon={<CgWebsite size={30} color="tomato" className="mr-3"/>} name=" LATEST PROJECTs"/>
                      <div className="bg-[#0a102f] rounded-md">
                          <div className=" grid  grid-flow-col grid-rows-4 place-content-around   py-8 md:grid-rows-1 place-content-between  ">
                               <Button name="All Projects" />
@@ -77,11 +78,14 @@ export default function Portfolio(){
 
                             </div>
                           <div className=" py-2 grid grid-flow-col grid-rows-4 md:grid-rows-2 place-content-around">
-                            {projectData.map(({img , title ,content})=>(
+                            {projectData.map(({img , title ,content,})=>(
+                              
                                 <Project  img = {img} title = {title} content = {content} />
+                                
                             ))}
                                 
                          </div>
+                         
                      </div>
                 </div>
             </div>
