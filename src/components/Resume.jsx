@@ -24,7 +24,7 @@ export default function Resume(){
      }
    return(
   
-     <div  className="   bg-[#0a192f]  text-gray-300 grid  ">
+     <div  className="   bg-[#0a132f]  text-gray-300 grid  ">
         <div className="justify-self-center max-w-5xl">
             <div className="py-9 md:my-0">
                 <Headsection icon={<BsPersonGear color="tomato" className="mr-3" size={30} />}  name="RESUME"/>

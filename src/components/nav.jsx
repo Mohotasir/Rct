@@ -19,9 +19,9 @@ export default function Nav(){
       setnav(!nav);
   }
     return(
-        <div className=" z-10  w-full h-[70px] flex justify-between items-center px-4 bg-[#0a192f]  ">
+        <div className=" z-10  w-full h-[70px] flex justify-between items-center px-4 bg-[#0a132f]  ">
             <div>
-                <h2 className="font-semibold text-2xl  font-sans text-emerald-600 border-b boder-dotted border-emerald-600 ">TAHSIN</h2>
+                <h2 className="font-semibold text-2xl  font-sans text-emerald-600 italic ">TAHSIN</h2>
             </div>
             <ul className='hidden font-sans md:flex gap-x-8 text-stone-100 text-md py-5'>
                 <li className=" border duration-150 border-blue-900 rounded-full bg-emerald-800 duration-300 hover:border-[#0a192f] ">

@@ -9,7 +9,7 @@ export default function About(){
         AOS.refresh();
       }, []);
     return(
-        <div className="w-full  bg-[#0a192f] text-gray-300 flex justify-center align-center sm: py-14">
+        <div className="w-full  bg-[#0a132f] text-gray-300 flex justify-center align-center sm: py-14">
             <div className="flex justify-center items-center  h-full py-9 rounded-md bg-gradient-to-r from-emerald-800 to-emerald-00 w-4/6 sm:py-16 ">
              <div className="">
                    <Headsection icon={<FcBusinessman size={30} />} name = "ABOUT" />

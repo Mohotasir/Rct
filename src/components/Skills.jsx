@@ -15,7 +15,7 @@ import {TbBrandNextjs} from "react-icons/tb";
  export default function Skill(){
     
     return(
-        <section className="bg-[#0a192f] py-24 text-gray-300 grid ">
+        <section className="bg-[#0a132f] shadow-lg py-24 text-gray-300 grid ">
             <div className="max-w-5xl  justify-self-center">
                 <div className="">
                     <div className="pb-10 sm:pb-0">
