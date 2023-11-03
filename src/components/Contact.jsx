@@ -35,12 +35,12 @@ export default function Contact(){
                         </div>
                     </div>
                     <div className=" px-4 sm:w-6/12">
-                    <p className="text-xl font-sans text-gray-500 pb-2"data-aos="fade-left" data-aos-duration={1000}>Feel free to contact !</p>
-                        <form className="flex flex-col "data-aos="fade-left" data-aos-duration={1500}>
+                    <p className="text-xl font-sans text-gray-500 pb-2"data-aos="fade-right" data-aos-duration={1000}>Feel free to contact !</p>
+                        <form className="flex flex-col "data-aos="fade-up" data-aos-duration={1500}>
                             <input className="my-2 p-3 rounded-md bg-[#0a102f] border border-gray-800  outline-none text-white text-lg font-sans " type="text" placeholder="Name"/>
                             <input className="my-2 p-3 rounded-md bg-[#0a102f] border border-gray-800 outline-none text-white text-lg font-sans" type="email" placeholder="Email"/>
                             <input className="my-2 p-3 rounded-md bg-[#0a102f] border border-gray-800 outline-none text-white text-lg font-sans" type="text" placeholder="Phone"/>
-                            <textarea className="my-2 pb-8 pt-3 px-4 rounded-md bg-[#0a102f] border border-gray-800 outline-none text-white text-lg font-sans" placeholder="Massage"></textarea>
+                            <textarea className="my-2 pb-8 pt-3 px-4 rounded-md bg-[#0a102f] border border-gray-800 outline-none text-white text-lg font-sans" placeholder="Message"></textarea>
                             <button className=" rounded text-white font-sans text-lg font-light py-2 bg-gradient-to-r from-emerald-900 to-emerald-00 duration-300 hover:shadow-gray-900 hover:scale-x-105 " type="submit">SUBMIT</button>
                         </form>
                     </div>
