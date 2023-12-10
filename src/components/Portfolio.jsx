@@ -72,7 +72,7 @@ export default function Portfolio(){
                      <div className="bg-[#0a102f] rounded-md">
                          <div className=" grid  grid-flow-col grid-rows-4 place-content-around   py-8 md:grid-rows-1 place-content-between  ">
                               <Button name="All Projects" />
-                              <Button name="React Projects" />
+                              <Button className="none" name="React Projects" />
                               <Button name="Wordpress Projects" />
                               <Button name="Javascript Projects" />
 

@@ -49,7 +49,7 @@ export default function Contact(){
             </div>
             <div className="flex items-center justify-center  py-2  text-gray-400 font-light font-sans text-md   border-t border-gray-800 ">
               <BiCopyright className="" size={20} />
-              <p className="items-center"> All right reserverd by Tahsin</p>
+              <p className="items-center"> All right reserved by Tahsin</p>
             </div>
         </div>
     );

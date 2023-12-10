@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import "../App.css"
 import Button from './Button';
 import profile from '../assets/pp.png';  
 import AOS from 'aos';
@@ -10,8 +11,8 @@ export default function Home(){
     AOS.refresh();
   }, []);
   return(
-     <div name="home" className="  h-full w-full bg-[#0a132f] py-10  sm:py-20" >
-         <div  className="  max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
+     <div name="home" className="home h-full w-full bg-[#0a132f] py-10  sm:py-20 " >
+         <div  className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
          <div className='p-3 sm:p-none' data-aos="fade-right" data-aos-duration={1500}>
               <img src={profile} alt='tasin' className='rounded-full shadow-md shadow-emerald-900 max-w-xl mx-auto w-2/3  '></img>
            </div>

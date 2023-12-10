@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import "../App.css";
 import {FcBusinessman} from "react-icons/fc";
 import {IoMdCheckmarkCircleOutline} from "react-icons/io";
 import Headsection from "./HeadTitle";
@@ -18,7 +19,7 @@ export default function About(){
                  <div className="flex flex-wrap flex-col py-3  md:flex-row align-center justify-center px-10 py-12yt45">
                     <div className="flex flex-col  justify-center w-full md:w-5/12" data-aos="fade-right" data-aos-duration={1000}>
                          
-                         <p className="pl-4 text-xl font-light font-sans sm:text-2xl">HI ! I am Tahsin.<br></br>work as a frontend web developer . I am expert in Javascript and React js</p>
+                         <p className=" text-font pl-4 text-xl font-light  sm:text-2xl ">HI ! I am Tahsin.<br></br>work as a frontend web developer . I am expert in Javascript and React js</p>
                          
                          
                     </div>

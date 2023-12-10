@@ -7,6 +7,7 @@ import {
     FaFacebook,
     
   } from 'react-icons/fa';
+  import "../App.css"
 import { HiOutlineMail } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 export default function Nav(){
@@ -19,7 +20,7 @@ export default function Nav(){
       setnav(!nav);
   }
     return(
-        <div className=" z-10  w-full h-[70px] flex justify-between items-center px-4 bg-[#0a132f]  ">
+        <div className="nav shadows  fixed z-10  w-full h-[70px] flex justify-between items-center px-4 bg-[#0a132f]  ">
             <div>
                 <h2 className="font-semibold text-2xl  font-sans text-emerald-600 italic ">TAHSIN</h2>
             </div>
