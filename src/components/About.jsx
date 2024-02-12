@@ -13,13 +13,13 @@ export default function About(){
       }, []);
     return(
         <div className="w-full  bg-[#0a132f] text-gray-300 flex justify-center align-center sm: py-14">
-            <div className="flex justify-center items-center  h-full py-9 rounded-md bg-gradient-to-r from-emerald-900 to-emerald-00 w-5/6 md:w-4/6 sm:py-2 ">
+            <div className="flex justify-center items-center  h-full py-9 rounded-md bg-gradient-to-r from-emerald-900 to-emerald-00 w-11/12 md:w-4/6 sm:py-2 ">
              <div className="pt-1 sm:pt-8">
                    <Headsection icon={<FcBusinessman size={30} />} name = "ABOUT" />
                  <div className="flex flex-wrap flex-col py-3 justify-center items-center  md:flex-row align-center justify-center px-4 sm:px-8 py-12yt45">
                     <div className="flex flex-col  justify-center w-full md:w-5/12" data-aos="fade-right" data-aos-duration={1000}>
                          
-                         <p className=" text-center text-font pl-4 text-xl font-light  sm:text-2xl md:text-left ">HI ! I am Tahsin.<br></br>work as a frontend web developer . I am expert in Javascript and React js</p>
+                         <p className=" text-center text-font  text-sm font-light  sm:text-2xl md:text-left ">HI ! I am Tahsin.<br></br>work as a frontend web developer . I am expert in Javascript and React js</p>
                          
                          
                     </div>
