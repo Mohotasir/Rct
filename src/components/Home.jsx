@@ -11,15 +11,17 @@ export default function Home(){
     AOS.refresh();
   }, []);
   return(
-     <div name="home" className="home h-full w-full bg-[#0a132f] py-10  sm:py-20 " >
-         <div  className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
-         <div className='p-3 sm:p-none' data-aos="fade-right" data-aos-duration={1500}>
+     <div name="home" className="home  bg-[#0a132f] pb-10 pt-2  sm:py-20 " >
+         <div  className="  max-w-screen-lg mx-auto flex flex-col justify-between items-center justify-center h-full px-4 md:flex-row md:w-[85%] ">
+         <div className='pb-5 sm:p-none' data-aos="fade-right" data-aos-duration={1500}>
               <img src={profile} alt='tasin' className='rounded-full shadow-md shadow-emerald-900 max-w-xl mx-auto w-2/3  '></img>
            </div>
-           <div className='flex flex-col  justify-center h-full'>
-                <h2 className="text-3xl font-sans font-700 sm:text-5xl  font-700 text-white" data-aos="fade-left" data-aos-duration={2000}>
-                Say Hi from <span className='font-sans '>TAHSIN,</span> <span className='tracking-widest md:animate-pulse text-green-400  border-b border-dotted border-green-500'>Frontend </span><br></br> Web Developer
-                </h2>
+           <div className='flex flex-col  text-center items-center md:text-left md:items-start'>
+                <div>
+                  <h2 className="text-3xl  font-sans font-700 sm:text-5xl  font-700 text-white" data-aos="fade-left" data-aos-duration={2000}>
+                  Say Hi from <span className='font-sans '>TAHSIN,</span> <span className='tracking-widest md:animate-pulse text-green-400  border-b border-dotted border-green-500'>Frontend </span><br></br> Web Developer
+                  </h2>   
+                </div>
                 <div data-aos="fade-up"data-aos-duration={2000}>
                 <p   className='text-gray-300 tracking-wide font-sans py-4 max-w-md'>
                       I have 3 years of experience in   web development.
