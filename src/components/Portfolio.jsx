@@ -69,8 +69,8 @@ export default function Portfolio(){
             <div className=" justify-self-center max-w-5xl">
                 <div> 
                      <Headsection icon={<CgWebsite size={30} color="tomato" className="mr-3"/>} name=" LATEST PROJECTs"/>
-                     <div className="bg-[#0a102f] rounded-md">
-                         <div className=" grid  grid-flow-col grid-rows-4 place-content-around   py-8 md:grid-rows-1 place-content-between  ">
+                     <div className="bg-[#0a102f] rounded-md pb-4 md:pb-12">
+                        <div className="hidden sm:grid  grid-flow-col  place-content-around   py-8 md:grid-rows-1   ">
                               <Button name="All Projects" />
                               <Button className="none" name="React Projects" />
                               <Button name="Wordpress Projects" />
@@ -85,7 +85,9 @@ export default function Portfolio(){
                             ))}
                                 
                          </div>
-                         
+                           <div className="flex items-center justify-center mt-5">
+                                <Button className="" name="See More Projects" />
+                           </div>
                      </div>
                 </div>
             </div>

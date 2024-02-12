@@ -15,16 +15,16 @@ import {TbBrandNextjs} from "react-icons/tb";
  export default function Skill(){
     
     return(
-        <section className="bg-[#0a132f] shadow-lg py-24 text-gray-300 grid ">
-            <div className="max-w-5xl  justify-self-center">
+        <section className="bg-[#0a132f] shadow-lg py-24 text-gray-300 grid  ">
+            <div className="w-[85%]  justify-self-center">
                 <div className="">
                     <div className="pb-10 sm:pb-0">
                         <Headsection icon= {<GiSkills size={30} color="tomato" className="mr-3" />} name="SKILLS"/>
                     </div>
                     <div className="text-center">
-                        <p className="px-4  font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus non nisi perspiciatis unde eius veniam ea enim inventore autem ipsa, aspernatur blanditiis, numquam cumque eaque mollitia aperiam nostrum, quas commodi.</p>  
+                        <p className="px-4  font-sans w-full sm:w-[70%] mx-auto">Lorem ipsum dolor  perspiciatis unde eius veniam ea enim inventore autem ipsa, aspernatur blanditiis, numquam cumque eaque mollitia aperiam nostrum, quas commodi.</p>  
                     </div>
-                    <div   className="grid grid-rows-4 grid-flow-col gap-4 pl-5 pt-12 sm:grid-rows-3 sm:gap-3 lg:grid-rows-2  sm:place-content-between ">
+                    <div   className="grid grid-rows-4 justify-around grid-flow-col   px-2 pt-12 sm:grid-rows-3  lg:grid-rows-2  ">
                       <IconSec icon={<SiHtml5 size={50}  color="RGB(254,87,34)" />} name="HTML" level="Expert" />
                       <IconSec icon={<SiCss3 size={50} color="RGB(33,150,243)" />} name="CSS" level="Expert" />
                       <IconSec icon={<DiJavascript1 size={50} color="RGB(239,216,29)" />} name="JAVA SCRIPT" level="Expert" />

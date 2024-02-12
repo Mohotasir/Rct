@@ -26,11 +26,11 @@ export default function About(){
                     
                     <div className=" py-4  md:w-1/12"></div>
                     <div className=" flex  w-full md:w-5/12 ">
-                        <div className="  shadow-lg shadow-emerald-900 rounded-2xl px-3 py-5 mr-4 "data-aos="fade-left" data-aos-duration={1000}>
+                        <div className="  shadow-lg shadow-emerald-900 rounded-2xl px-3 py-5 mr-4 "data-aos="fade-up" data-aos-duration={2000}>
                             <h2 className="text-4xl  sm:text-5xl font-sans font-bold">2+</h2>
                             <p className="font-sans">YEARS OF EXPERIENCE </p>
                         </div>
-                        <div className="shadow-lg shadow-emerald-900 rounded-2xl px-3 py-5"data-aos="fade-left" data-aos-duration={1500}>
+                        <div className="shadow-lg shadow-emerald-900 rounded-2xl px-3 py-5"data-aos="fade-up" data-aos-duration={1500}>
                             <h2 className="text-4xl sm:text-5xl font-sans font-bold">10+</h2>
                             <p className="font-sans">PROJECTS COMPLETED </p>
                         </div>
